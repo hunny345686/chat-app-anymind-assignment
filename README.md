@@ -76,7 +76,7 @@ A real-time chat interface built with React, TypeScript, Apollo Client, and Grap
 
 ## 📸 Demo Screenshot
 
-![Chat UI Demo](./src/assets/screenshot.png)
+![Chat UI Demo](https://hunny345686.github.io/chat-app-anymind-assignment/)
 
 ---
 
@@ -110,8 +110,8 @@ A real-time chat interface built with React, TypeScript, Apollo Client, and Grap
 
 ```bash
 # Clone the repo
-git clone https://github.com/prem-singh/chat-app-react-graphql.git
-cd chat-app-react-graphql
+git clone https://github.com/hunny345686/chat-app-anymind-assignment.git
+cd chat-app-anymind-assignment
 
 # Install deps
 npm install
