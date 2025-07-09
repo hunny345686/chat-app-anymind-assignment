@@ -69,44 +69,49 @@ export default tseslint.config([
 ```
 
 
-
 # 💬 React Chat App - AnyMind Group Assignment
 
-A real-time chat interface built with React, TypeScript, Apollo Client, and GraphQL.
-
-## 📸 Demo Screenshot
-
-![Chat UI Demo](https://hunny345686.github.io/chat-app-anymind-assignment/)
+A single-page chat application built with **React**, **TypeScript**, **Apollo Client**, and **Tailwind CSS** as part of a technical assignment for AnyMind Group. The app allows users to communicate in real-time across different channels with features like message persistence, retry on error, and message pagination.
 
 ---
 
-## 🚀 Features
+## 🚀 Live Demo
 
-- 🔘 User selection: Joyse, Russell, Sam
-- 🗂️ Channel switch between General, Technology, LGTM
-- 📨 Send messages with optimistic UI
-- 🔁 Retry failed messages
-- ⬇️ Pagination via “Read More” (older messages)
-- 🧠 Persist message input
-- ⚛️ Type-safe with TypeScript
-- 🎨 Styled using Tailwind CSS
-- 🧩 Apollo Client with GraphQL backend
-- 📦 No Redux; state managed via Context API
+🌐 [View on GitHub Pages](https://hunny345686.github.io/chat-app-anymind-assignment/)
 
 ---
 
-## 🧪 Tech Stack
+## 📸 Preview
 
-- React + Vite
-- TypeScript
-- Apollo Client (GraphQL)
-- Tailwind CSS
-- Context API
-- Git + GitHub
+![Chat UI Preview](./preview.png)
 
 ---
 
-## 🔧 How to Run
+## 🛠️ Tech Stack
+
+- ⚛️ **React 18** + **TypeScript**
+- 🎨 **Tailwind CSS** for UI styling
+- 🚀 **Apollo Client** for GraphQL integration
+- 📡 **GraphQL** backend from AnyMind
+- 🧠 **Context API** for global state
+- ⚙️ **Vite** for fast bundling and dev server
+
+---
+
+## ✨ Features
+
+- 🔁 Selectable users (`Joyse`, `Russell`, `Sam`)
+- 🧵 Channel-based chat (`General`, `Technology`, `LGTM`)
+- 📨 Fetch latest messages from GraphQL API
+- 📥 "Read More" to load older messages (pagination)
+- 🔁 Retry failed messages (with retry icon)
+- 🧠 Message input persists on reload (localStorage)
+- 📱 Responsive, mobile-friendly design
+- 💡 Clean and extendable code structure
+
+---
+
+## 📦 Installation
 
 ```bash
 # Clone the repo
